@@ -1,0 +1,123 @@
+body{
+    background-image: url("img/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s;
+}
+a:hover{
+    color: #cc986b;
+}
+.header{
+    position: absolute;
+    width: 600px;
+    height: 18px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1250px;
+    border: 2px solid;
+    margin-top: -4px;
+    border-color: aliceblue;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px ;
+    transition: 0.3s;
+    
+}
+.header:hover{
+    border-color: #cc986b;
+}
+.unit{
+    transition: 0.3s;
+}
+.unit:hover{
+    color: #cc986b;
+}
+
+.main{
+    position: absolute;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 90px;
+    text-align: left;
+    width: 800px;
+    height: 270px;
+    background: none;
+    color: aliceblue;
+    margin: 170px 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+
+}
+.resume{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin: 800px 150px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #cc986b;
+    align-items: center;
+    text-align: center;
+    padding-top: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+.resume:hover{
+    color: #cc986b;
+    background-color: aliceblue;
+}
+
+.fake{
+    position: absolute;
+    width: 15px;
+    height: 230px;
+    background-color: #cc986b;
+    margin: 700px 700px;
+}
+
+.text{
+    position: absolute;
+    width: 600px;
+    font-size: 90px;
+    color: #cc986b;
+    margin: 720px 780px;
+}
+
+.abil{
+    position: absolute;
+    background-color: #cc986b;
+    color: aliceblue;
+    font-size: 37px;
+    margin: 620px 1300px;
+    width: 500px;
+    padding: 10px 10px 10px 50px;
+    border-radius: 4px;
+}
+.list{
+    position: absolute;
+    color: #cc986b;
+    font-size: 30px;
+    margin: 720px 1300px;
+    width: 600px;
+}
+.unit-1{
+    margin-top:20px ;
+}
+
+.foot{
+    position: absolute;
+    color: #cc986b;
+    font-size: 25px;
+    margin: 900px 150px;
+}

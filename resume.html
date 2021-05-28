@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document-1</title>
+</head>
+<body>
+    <div class="header">
+        <div class="unit"><a href="index.html">MAIN</a></div>
+        <div class="unit"><a href="resume.html">RESUME</a></div>
+        <div class="unit"><a href="hob.html">HOBBY</a></div>
+    </div>
+    <div class="main">IF YOU REALLY WANT SOMETHING NOONE CAN STOP YOU</div>
+
+    <div class="fake"></div>
+    <div class="text">RESUME</div>
+
+    <div class="container">
+
+
+        <div class="unit-1 first">Software Developer 
+</div>
+        <div class="unit-1">•High productivity
+</div>
+        <div class="unit-1">•Good learnability
+</div>
+        <div class="unit-1">•Nice discipline
+</div>
+        <div class="unit-1">•Red attestat from High school for gifted boys
+</div>
+        <div class="unit-1">•UNT 119 Math 37/40
+</div>
+        <div class="unit-1">•Fantastic desire to develop
+</div>
+        <div class="unit-1">•Love of sport</div>
+
+    </div>
+
+    <div class="fake2"></div>
+    <div class="fake3"></div>
+    <div class="lang">LANGUAGES</div>
+
+    <div class="chart" >
+        <canvas id="myChart"></canvas>
+        <script>
+            var ctx = document.getElementById('myChart');
+            var myChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels : ['Kazakh','Russian','English'],
+                    
+                    datasets: [{
+                    
+                        data: [9,8,5],
+                        offset : '15',
+                        borderColor: [
+                           "#cc986b" 
+                        ],
+                        borderWidth:'5px',
+                        backgroundColor:
+                        ['#e8ae7d',
+                        '#fab173',
+                        '#e3b38a'],
+                        rotation:50,
+                        hoverBorderColor: 'aliceblue',
+                        hoverBackgroundColor:'#cc986b',
+                        circumference : 360,
+                        
+                        borderWidth: 4  ,
+                    
+                    }]
+                },
+               
+            });
+            </script>
+    </div>
+    
+    
+
+    <div class="btn">
+         <a href="hob.html">HOBBIES AND INTERSTS</a>
+    </div>
+    
+    <div class="one">
+        <a href="index.html">MAIN</a>
+        </div>
+
+    <div class="foot">@_happy_someone_xyz_</div>
+</body>
+</html>
